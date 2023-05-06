@@ -65,7 +65,7 @@ Else:print ('list_dictionaries is not empty')
 numbers = [3,5,45,97,32,22,10,19,39,43]
 def list_comprehension(numbers):
    list = [3,5,45,97,32,22,10,19,39,43]
-   result =(for i in numbers if i%2!==0)
+   result =for i in numbers if i%2!==0 
 
    print(list)
 
